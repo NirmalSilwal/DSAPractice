@@ -11,6 +11,18 @@ out/
 ### Java ###
 *.class
 
+### Secrets / Local Config ###
+.env
+.env.*
+!.env.example
+!.env.sample
+local.properties
+secrets.*
+*.pem
+*.p12
+*.jks
+*.keystore
+
 ### Eclipse ###
 .apt_generated
 .classpath
