@@ -1,36 +1,78 @@
-# 🚀 DSA Practice – Structured Interview Preparation
+# 📘 DSA Practice Repository
 
-> A continuously growing repository for mastering **Data Structures & Algorithms** through patterns and consistent practice.
+Welcome to my **Data Structures & Algorithms (DSA) Practice** repository.
+This repo captures my journey of consistently solving DSA problems for interview preparation.
 
 ![GitHub stars](https://img.shields.io/github/stars/NirmalSilwal/DSAPractice?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/NirmalSilwal/DSAPractice?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/NirmalSilwal/DSAPractice)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nirmal%20Silwal-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nirmal-silwal/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nirmal%20Silwal-0A66C2?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/nirmal-silwal/)
 
 ---
 
-## 📌 About
+## 🚀 About This Repository
 
-This repository captures my journey of solving DSA problems with a focus on:
-
-- 🧠 Understanding **patterns & intuition**
-- ⚙️ Writing **clean and optimized code**
-- 📈 Improving problem-solving skills
-- 🎯 Preparing for coding interviews
+* 💡 A growing collection of DSA problems I practice regularly
+* 🧠 Focus on understanding concepts, patterns, and optimizations
+* 🛠️ Implementations primarily in **Java**
+* 📈 Continuously updated as I learn and improve
 
 ---
 
 ## 🐍 Repo-Only 3D Contribution Snake
 
-![Repo-only 3D contribution snake](https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/repo-contribution-snake-3d-dark.svg?v=2)
+![Repo-only 3D contribution snake](https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/repo-contribution-snake-3d-dark.svg?v=4)
 
-> Shows commit activity from **this repository only** (not your entire GitHub profile).
+> Shows recent commit activity from **this repository only**.
 
 ---
 
-## 🧭 Start Here (Recommended Path)
+## 📂 Repository Structure
 
-If you're new to DSA, follow this order:
+```text
+DSAPractice/
+│
+├── src/
+│   └── DSA/
+│       └── (problem solutions)
+│
+└── README.md
+```
+
+**Each solution typically includes:**
+
+* Problem understanding
+* Approach / logic
+* Code implementation
+
+---
+
+## 🧩 Topics Covered
+
+* Arrays & Strings
+* Sorting & Searching
+* Hashing
+* Recursion & Backtracking
+* Trees & Graphs
+* Heaps & Priority Queues
+* Dynamic Programming
+* Greedy Algorithms
+
+*(Topics will expand as I progress)*
+
+---
+
+## 🔥 Current Focus
+
+* Building strong problem-solving fundamentals
+* Practicing consistently
+* Improving time & space complexity analysis
+
+---
+
+## 🧭 Recommended Learning Path
+
+If you're starting with DSA, this is a practical order:
 
 1. Arrays
 2. Hashing
@@ -44,30 +86,43 @@ If you're new to DSA, follow this order:
 
 ---
 
-## 🧠 Patterns Covered
+## 🛠️ How to Run
 
-- ✅ Array & Hashing
-- ✅ Sliding Window
-- ✅ Prefix Sum
-- ✅ DFS (Graphs)
-- ✅ Heaps / Priority Queue
-- ⏳ Dynamic Programming (in progress)
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/NirmalSilwal/DSAPractice.git
+   ```
+
+2. Navigate to the project:
+
+   ```bash
+   cd DSAPractice
+   ```
+
+3. Compile and run Java files:
+
+   ```bash
+   javac src/DSA/FileName.java
+   java src/DSA/FileName
+   ```
 
 ---
 
-## 🗂️ Repository Structure
+## 📌 Goals
 
-```text
-DSAPractice/
-│
-├── src/
-│   └── DSA/
-│       ├── ArrayAndHashing/
-│       ├── Graph/
-│       │   └── DFS/
-│       ├── Heaps/
-│       ├── PrefixSum/
-│       ├── SlidingWindow/
-│       ├── Sorting/
-│
-└── README.md
+* Stay consistent with daily/regular practice 📅
+* Strengthen core DSA concepts 🧠
+* Become interview-ready 💼
+
+---
+
+## ⭐ Support
+
+If you find this repository helpful or inspiring, consider giving it a ⭐
+
+---
+
+## 📬 Note
+
+This is a personal learning journey, and the repository will evolve over time as I grow.
