@@ -1,29 +1,39 @@
 # 📘 DSA Practice Repository
 
-Welcome to my **Data Structures & Algorithms (DSA) Practice** repository.
-This repo captures my journey of consistently solving DSA problems for interview preparation.
+Welcome to my **Data Structures & Algorithms (DSA) Practice** repository.  
+This repository reflects my **consistent problem-solving journey** focused on mastering patterns commonly asked in technical interviews.
 
 ![GitHub stars](https://img.shields.io/github/stars/NirmalSilwal/DSAPractice?style=social)
 ![GitHub forks](https://img.shields.io/github/forks/NirmalSilwal/DSAPractice?style=social)
 ![GitHub last commit](https://img.shields.io/github/last-commit/NirmalSilwal/DSAPractice)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nirmal%20Silwal-0A66C2?logo=linkedin\&logoColor=white)](https://www.linkedin.com/in/nirmal-silwal/)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/NirmalSilwal/DSAPractice)
+![GitHub repo size](https://img.shields.io/github/repo-size/NirmalSilwal/DSAPractice)
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Nirmal%20Silwal-0A66C2?logo=linkedin&logoColor=white)](https://www.linkedin.com/in/nirmal-silwal/)
 
 ---
 
 ## 🚀 About This Repository
 
-* 💡 A growing collection of DSA problems I practice regularly
-* 🧠 Focus on understanding concepts, patterns, and optimizations
-* 🛠️ Implementations primarily in **Java**
-* 📈 Continuously updated as I learn and improve
+- 💡 A growing collection of DSA problems solved consistently  
+- 🧠 Focus on **patterns, intuition, and optimization**  
+- 🛠️ Implementations primarily in **Java**  
+- 📈 Continuously updated as part of interview preparation  
 
 ---
 
-## 🐍 Repo-Only 3D Contribution Snake
+## 🐍 Repo Contribution Activity
 
-![Repo-only 3D contribution snake](https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/repo-contribution-snake-3d-dark.svg?v=4)
+![Repo Contribution Snake](https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/repo-contribution-snake-3d-dark.svg)
 
-> Shows recent commit activity from **this repository only**.
+> Visual representation of commit activity **from this repository only**
+
+---
+
+## 📅 Consistency Tracker
+
+![GitHub Streak](https://streak-stats.demolab.com?user=NirmalSilwal&theme=dark&hide_border=true)
+- Maintain **daily commit streak**
 
 ---
 
@@ -32,10 +42,20 @@ This repo captures my journey of consistently solving DSA problems for interview
 ```text
 DSAPractice/
 │
+├── .github/
+├── scripts/
 ├── src/
 │   └── DSA/
-│       └── (problem solutions)
+│       ├── ArrayAndHashing/
+│       ├── Graph/
+│       │   └── DFS/
+│       ├── Heaps/
+│       ├── PrefixSum/
+│       ├── SlidingWindow/
+│       └── Sorting/
 │
+├── .gitignore
+├── qodana.yaml
 └── README.md
 ```
 
@@ -49,16 +69,18 @@ DSAPractice/
 
 ## 🧩 Topics Covered
 
-* Arrays & Strings
-* Sorting & Searching
-* Hashing
-* Recursion & Backtracking
-* Trees & Graphs
-* Heaps & Priority Queues
-* Dynamic Programming
-* Greedy Algorithms
+- Arrays & Strings  
+- Sorting & Searching  
+- Hashing  
+- Sliding Window  
+- Two Pointers  
+- Recursion & Backtracking  
+- Trees & Graphs  
+- Heaps & Priority Queues  
+- Dynamic Programming  
+- Greedy Algorithms  
 
-*(Topics will expand as I progress)*
+> More topics will be added as the repository grows.
 
 ---
 
