@@ -20,22 +20,11 @@ This repository captures my journey of solving DSA problems with a focus on:
 
 ---
 
-## 🐍 Contribution Snake
+## 🐍 Repo-Only 3D Contribution Snake
 
-<picture>
-  <source
-    media="(prefers-color-scheme: dark)"
-    srcset="https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/github-contribution-grid-snake-dark.svg?v=3"
-  />
-  <source
-    media="(prefers-color-scheme: light)"
-    srcset="https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/github-contribution-grid-snake.svg?v=3"
-  />
-  <img
-    alt="Contribution Snake"
-    src="https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/github-contribution-grid-snake.svg?v=3"
-  />
-</picture>
+![Repo-only 3D contribution snake](https://raw.githubusercontent.com/NirmalSilwal/DSAPractice/output/repo-contribution-snake-3d-dark.svg?v=2)
+
+> Shows commit activity from **this repository only** (not your entire GitHub profile).
 
 ---
 
