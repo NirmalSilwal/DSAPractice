@@ -12,10 +12,16 @@
 
 This repository captures my journey of solving DSA problems with a focus on:
 
-* 🧠 Understanding **patterns & intuition**
-* ⚙️ Writing **clean and optimized code**
-* 📈 Improving problem-solving skills
-* 🎯 Preparing for coding interviews
+- 🧠 Understanding **patterns & intuition**
+- ⚙️ Writing **clean and optimized code**
+- 📈 Improving problem-solving skills
+- 🎯 Preparing for coding interviews
+
+---
+
+## 🐍 Contribution Snake
+
+![Contribution Snake](https://raw.githubusercontent.com/NirmalSilwal/NirmalSilwal/output/github-contribution-grid-snake-dark.svg)
 
 ---
 
@@ -37,18 +43,18 @@ If you're new to DSA, follow this order:
 
 ## 🧠 Patterns Covered
 
-* ✅ Array & Hashing
-* ✅ Sliding Window
-* ✅ Prefix Sum
-* ✅ DFS (Graphs)
-* ✅ Heaps / Priority Queue
-* ⏳ Dynamic Programming (in progress)
+- ✅ Array & Hashing
+- ✅ Sliding Window
+- ✅ Prefix Sum
+- ✅ DFS (Graphs)
+- ✅ Heaps / Priority Queue
+- ⏳ Dynamic Programming (in progress)
 
 ---
 
 ## 🗂️ Repository Structure
 
-```
+```text
 DSAPractice/
 │
 ├── src/
@@ -62,56 +68,3 @@ DSAPractice/
 │       ├── Sorting/
 │
 └── README.md
-```
-
----
-
-## 🔍 How to Navigate
-
-* 📂 Each folder represents a **DSA pattern/topic**
-* 📄 Each file is a **single problem implementation**
-* 🧾 File names are descriptive and grouped logically
-
-Example:
-
-```
-ArrayAndHashing/
-   ├── TwoSum.java
-   ├── ThreeSum.java
-
-SlidingWindow/
-   ├── LongestSubstringWithoutRepeatingCharacters.java
-```
-
----
-
-## ⚙️ How to Run
-
-```bash
-git clone https://github.com/NirmalSilwal/DSAPractice.git
-cd DSAPractice
-javac src/DSA/FileName.java
-java src/DSA/FileName
-```
-
----
-
-## 🌟 What Makes This Repo Useful?
-
-* 📚 Organized by **patterns (not random problems)**
-* 🧠 Focus on **clear logic and clean code**
-* 📈 Continuously growing with consistent practice
-* 🏗️ Simple, scalable structure
-
----
-
-## 🎯 Goal
-
-> Build strong DSA fundamentals and become confident in solving interview-level problems.
-
----
-
-## ⭐ Support
-
-If this repository helps you, consider giving it a ⭐
-It helps others discover it and keeps me motivated.
