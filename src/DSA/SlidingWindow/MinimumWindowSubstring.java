@@ -8,4 +8,11 @@ Output: "BANC"
 https://leetcode.com/problems/minimum-window-substring/description/
  */
 public class MinimumWindowSubstring {
+
+    public String minWindow(String s, String t) {
+
+        if (s == null || t == null || t.length() > s.length()) return "";
+
+        return "";
+    }
 }
