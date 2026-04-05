@@ -10,9 +10,11 @@ Output: [4, 2, 4, -1, -1]
  */
 
 import java.util.Arrays;
+import java.util.Stack;
 
 public class NextGreaterElement {
 
+    // brute force approach
     public static int[] findNextGreaterBruterForce(int[] arr) {
 
         int n = arr.length;
@@ -30,8 +32,32 @@ public class NextGreaterElement {
         return result;
     }
 
+    // optimal approach
+
+    public static int[] nextGreaterElementLeftToRightTraverseInArray(int[] arr) {
+        int n = arr.length;
+        int[] result = new int[n];
+        Arrays.fill(result, -1);
+
+        // stack stores indices of elements waiting for a next greater element
+        Stack<Integer> stack = new Stack<>();
+
+        for (int i = 0; i < n; i++) {
+
+            while (!stack.isEmpty() && arr[i] > arr[stack.peek()]) {
+                int index = stack.pop();
+                result[index] = arr[i];
+            }
+            // push current index for future comparision
+            stack.push(i);
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         int[] arr = {2, 1, 2, 4, 3};
         System.out.println(Arrays.toString(findNextGreaterBruterForce(arr)));
+        System.out.println(Arrays.toString(nextGreaterElementLeftToRightTraverseInArray(arr)));
+
     }
 }
