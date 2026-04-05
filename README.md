@@ -43,22 +43,19 @@ This repository reflects my **consistent problem-solving journey** focused on ma
 
 ```text
 DSAPractice/
-│
-├── .github/
-├── scripts/
 ├── src/
 │   └── DSA/
 │       ├── ArrayAndHashing/
+│       ├── Design/
 │       ├── Graph/
+│       │   ├── BFS/
 │       │   └── DFS/
 │       ├── Heaps/
 │       ├── PrefixSum/
+│       ├── Queue/
 │       ├── SlidingWindow/
-│       └── Sorting/
-│
-├── .gitignore
-├── qodana.yaml
-└── README.md
+│       ├── Sorting/
+│       └── Stack/
 ```
 
 **Each solution typically includes:**
