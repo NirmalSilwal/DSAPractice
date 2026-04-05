@@ -32,7 +32,9 @@ This repository reflects my **consistent problem-solving journey** focused on ma
 
 ## 📅 Consistency Tracker
 
-![GitHub Streak](https://streak-stats.demolab.com?user=NirmalSilwal&theme=dark&hide_border=true)
+<!-- ![GitHub Streak](https://streak-stats.demolab.com?user=NirmalSilwal&theme=dark&hide_border=true) -->
+
+![GitHub Streak](https://github-readme-streak-stats-eight.vercel.app/?user=NirmalSilwal&theme=dark&hide_border=true)
 - Maintain **daily commit streak**
 
 ---
