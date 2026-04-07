@@ -32,8 +32,7 @@ public class NextGreaterElement {
         return result;
     }
 
-    // optimal approach
-
+    // optimal approach using a monotonic decreasing stack of indices
     public static int[] nextGreaterElementLeftToRightTraverseInArray(int[] arr) {
         int n = arr.length;
         int[] result = new int[n];
@@ -54,10 +53,29 @@ public class NextGreaterElement {
         return result;
     }
 
+    public static int[] nextGreaterElementRightToLeftTraverseInArray(int[] arr) {
+        int n = arr.length;
+        int[] result = new int[n];
+        Stack<Integer> stack = new Stack<>();
+
+        for (int i = n - 1; i >= 0; i--) {
+            while (!stack.isEmpty() && stack.peek() <= arr[i]) {
+                stack.pop();
+            }
+            if (stack.isEmpty()) {
+                result[i] = -1;
+            } else {
+                result[i] = stack.peek();
+            }
+            stack.push(arr[i]);
+        }
+        return result;
+    }
+
     public static void main(String[] args) {
         int[] arr = {2, 1, 2, 4, 3};
         System.out.println(Arrays.toString(findNextGreaterBruterForce(arr)));
         System.out.println(Arrays.toString(nextGreaterElementLeftToRightTraverseInArray(arr)));
-
+        System.out.println(Arrays.toString(nextGreaterElementRightToLeftTraverseInArray(arr)));
     }
 }
