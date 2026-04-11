@@ -1,7 +1,3 @@
-
-## Updated `.github/workflows/snake.yml`
-
-  ```yaml
 name: Generate Snake
 
 on:
