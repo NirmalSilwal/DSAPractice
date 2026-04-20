@@ -2,6 +2,22 @@ package Tree;
 
 /*
 https://leetcode.com/problems/construct-quad-tree/description/
+We have a square grid of only 0 and 1.
+
+We need to build a Quad Tree.
+
+Rule:
+If a sub-grid is all same value:
+    make it a leaf node
+
+If sub-grid has mixed values:
+    make it a non-leaf node
+    divide into 4 equal parts:
+        topLeft
+        topRight
+        bottomLeft
+        bottomRight
+        recursively build children
  */
 class Node {
     public boolean val;
@@ -40,5 +56,41 @@ class Node {
 }
 
 public class QuadTree {
+
+    public Node construct(int[][] grid) {
+        return build(grid, 0, 0, grid.length);
+    }
+
+    private Node build(int[][] grid, int row, int col, int size) {
+
+        if (isUniform(grid, row, col, size)) {
+            return new Node(grid[row][col] == 1, true);
+        }
+
+        int half = size / 2;
+
+        Node topLeft = build(grid, row, col, half);
+        Node topRight = build(grid, row, col + half, half);
+        Node bottomLeft = build(grid, row + half, col, half);
+        Node bottomRight = build(grid, row + half, col + half, half);
+
+        // for non-leaf node value can be anything so passing true here
+        return new Node(true, false, topLeft, topRight, bottomLeft, bottomRight);
+    }
+
+    // checks if all value in that grid section is same
+    private boolean isUniform(int[][] grid, int row, int col, int size) {
+        int value = grid[row][col];
+
+        for (int i = row; i < row + size; i++) {
+            for (int j = col; j < col + size; j++) {
+
+                if(grid[i][j] != value) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 
 }
