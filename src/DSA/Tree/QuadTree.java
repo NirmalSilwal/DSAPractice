@@ -1,10 +1,10 @@
-package Tree;
+package DSA.Tree;
 
 /*
 https://leetcode.com/problems/construct-quad-tree/description/
 We have a square grid of only 0 and 1.
 
-We need to build a Quad Tree.
+We need to build a Quad DSA.Tree.
 
 Rule:
 If a sub-grid is all same value:
